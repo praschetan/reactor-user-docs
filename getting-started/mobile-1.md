@@ -48,6 +48,8 @@ Creating a mobile property in Launch helps you seamlessly configure **Adobe Expe
 3. On the **Mobile Install Instructions** pop-up, choose **Android** or **iOS**.
 4. Follow the instructions for using Grade with Android or CocoaPods with iOS. The necessary dependecies and initialization code can be copied from the pop-up to the app project.
 
+![](../.gitbook/assets/install-instructions.png)
+
 ## Android
 
 _**Important:** This version of the Adobe Experience Cloud Platform SDKs supports **Android 4.0 \(API 14\) or later.**_
