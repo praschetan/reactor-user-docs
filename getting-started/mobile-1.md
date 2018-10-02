@@ -19,13 +19,12 @@ Creating a mobile property in Launch helps you seamlessly configure **Adobe Expe
    3. Find the new property in the Properties list and click to open it.
 
 1. Setup **Extensions**
-   1. Go to the **Extensions** tab. ::Note: Mobile Core and Profile extensions are installed by default.::
+   1. Go to the **Extensions** tab.  _Note: Mobile Core and Profile extensions are installed by default._
    2. Click **Catalog**, and install all the extensions you need.
-   ::[What extensions do I need?](../extension-reference/mobile/)::
-   ::Note: Default configuration values for each extension are already set. See [Mobile Extensions](../extension-reference/mobile/) for more detail on extension configuration.::
+   _See: [What extensions do I need?](../extension-reference/mobile/)_
+   _Note: Default configuration values for each extension are already set. See [Mobile Extensions](../extension-reference/mobile/) for more detail on extension configuration._
    
-3. Go to the **Environments** tab. 
-   ::Note: Production, staging, and development environments have been created for your convenience.::
+1. Go to the **Environments** tab.  _Note: Production, staging, and development environments have been created for your convenience._
 
 3. Publish configuration
    In this step, you'll create library of changes and then deploy the library to a **Development Environment**.
@@ -35,7 +34,7 @@ Creating a mobile property in Launch helps you seamlessly configure **Adobe Expe
    4. Add the configuration changes to be deployed.
    5. Click **Add All Changed Resources** \(or to add only some changes, click **Add a Resource**\).
    6. Click **Save & Build for Development**.
-   Note: The library will build and then show under the **Development** section of the publishing workflow.
+   _Note: The library will build and then show under the **Development** section of the publishing workflow._
    7. Click on the down arrow for the library and select **Submit for Approval**.
    
    The configuration contained in the library will then be deployed to the Development environment and the library will show under the Submitted section of the publishing workflow.
@@ -51,14 +50,14 @@ Creating a mobile property in Launch helps you seamlessly configure **Adobe Expe
 
 ## Android
 
-::**Important:** This version of the Adobe Experience Cloud Platform SDKs supports **Android 4.0 \(API 14\) or later.**::
+_**Important:** This version of the Adobe Experience Cloud Platform SDKs supports **Android 4.0 \(API 14\) or later.**_
 
 1. Create MainActivity.java in the app.
 2. Add `MobileCore.configureWithAppID("PASTE_APP_ID_HERE");`
 
 ## iOS
 
-::**Important:** This version of the Adobe Experience Platform SDKs supports **iOS 10 or later.**::
+_**Important:** This version of the Adobe Experience Platform SDKs supports **iOS 10 or later.**_
 
 1. In Xcode, open AppDelegate.swift (Swift) or AppDelegate.m (Objective-C)
 2. Under `didFinishLaunchingWithOptions`, add:
