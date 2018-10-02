@@ -7,7 +7,7 @@ Creating a mobile property in Launch helps you seamlessly configure **Adobe Expe
     2. Setup **Extensions**
     3. **Publish** configuration
 
-2. [Implement Adobe Experience Platform SDKs in your apps](mobile-1.md#install-the-adobe-cloud-platform-sdks-in-an-android-or-ios-app)
+2. [Add Adobe Experience Platform SDKs to your apps](mobile-1.md#install-the-adobe-cloud-platform-sdks-in-an-android-or-ios-app)
     1. [Android](mobile-1.md#use-the-adobe-cloud-platform-sdks-in-an-android-app)
     2. [iOS](mobile-1.md#use-the-adobe-experience-cloud-platform-sdks-in-an-ios-app)
 ---
@@ -41,7 +41,7 @@ Creating a mobile property in Launch helps you seamlessly configure **Adobe Expe
 
    Testing can be done using the configuration in the Development environment. Later, the library can be deployed to **Staging** and **Production Environments** using the rest of the publishing workflow. Please see (link-to publishing-to-stage/prod-here)   
 ---
-## Implement Adobe Experience Platform SDKs
+## Add Adobe Experience Platform SDKs to your apps
 
 1. Open the **Mobile** property in Launch and go to the **Environments** tab to view instructions for adding the SDKs to an app.
 2. Find the platform needed in the table and click on the box icon under the **Install** column.
@@ -64,7 +64,7 @@ _**Important:** Adobe Experience Platform SDKs for iOS supports **iOS 10 or late
 1. In Xcode, open AppDelegate.swift (Swift) or AppDelegate.m (Objective-C)
 2. Under `didFinishLaunchingWithOptions`, add:
     1.  _Swift:_`ADBMobileMarketing.configure(withAppId: "YOUR_APP_ID")` or
-    2.  _Objective-C:_ `[ACPCore configureWithAppId:@"PASTE_APP_ID_HERE"];`. 
+    2.  _Objective-C:_ `[ACPCore configureWithAppId:@"PASTE_APP_ID_HERE"];`
 ---
 
 ## Next Steps
