@@ -52,14 +52,14 @@ Creating a mobile property in Launch helps you seamlessly configure **Adobe Expe
 
 ## Android
 
-_**Important:** This version of the Adobe Experience Cloud Platform SDKs supports **Android 4.0 \(API 14\) or later.**_
+_**Important:** Adobe Experience Platform SDK for Android supports **Android 4.0 \(API 14\) or later.**_
 
 1. Create MainActivity.java in the app.
 2. Add `MobileCore.configureWithAppID("PASTE_APP_ID_HERE");`
 
 ## iOS
 
-_**Important:** This version of the Adobe Experience Platform SDKs supports **iOS 10 or later.**_
+_**Important:** Adobe Experience Platform SDKs for iOS supports **iOS 10 or later.**_
 
 1. In Xcode, open AppDelegate.swift (Swift) or AppDelegate.m (Objective-C)
 2. Under `didFinishLaunchingWithOptions`, add:
@@ -69,8 +69,8 @@ _**Important:** This version of the Adobe Experience Platform SDKs supports **iO
 
 ## Next Steps
 ### Setup Core functionality
-1. [Setup SDK debug logging]()
-2. [Setup Experience Cloud Identity Services]()
+1. [Setup debug logging]()
+2. [Setup Experience Cloud Identity services]()
 3. [Setup Lifecycle Metrics]()
 
 ### Setup Adobe Experience Cloud solutions
